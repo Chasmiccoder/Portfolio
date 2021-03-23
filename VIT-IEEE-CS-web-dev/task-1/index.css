@@ -1,6 +1,5 @@
-
 body{
-    background-image: url(../images/background.png);
+    background-image: url(../images/background_1.png);
 }
 
 #IEEE_logo{
@@ -16,28 +15,21 @@ body{
 .heading{
     color: cyan;
     padding: 10px;
-    
     font-family: 'Cairo', sans-serif;
 }
 
 p{
-
     color:whitesmoke;
-    padding: 10px;
-    
+    padding: 10px;  
 }
-/* ADD HOVER FEATURE AS WELL*/
 
 #Content{
-    
     margin: 20px;
     padding: 10px;
     background-color: transparent;
     
     display: flex;
     flex-direction: row;
-    
-    
 }
 
 ion-icon{
@@ -56,7 +48,6 @@ ion-icon{
     position: fixed;
     bottom: 15px;
     right: 15px;
-
 }
 
 #instagramIcon {
