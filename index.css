@@ -1,3 +1,32 @@
+body{
+    background-image: url(./images/background_1_paper_texture.png);
+}
+
+#menu_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient( #DEB887, #8B4513 );
+    color:cornsilk;
+    font-size: 1.75rem;
+    font-family: 'Meddon', cursive;
+}
+
+.dropdown {
+    display: none;
+    font-size: 1.0rem;
+
+}
+
+#IEEE-CS:hover .dropdown {
+    display: block;
+}
+
+.content {
+    font-size: 1.2rem;
+    margin: 1rem;
+    font-family: 'Fira Code', monospace;
+}
 
 /*
 body{
