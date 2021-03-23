@@ -1,4 +1,5 @@
 
+/*
 body{
     background-image: url(../images/background.png);
 }
@@ -26,7 +27,6 @@ p{
     padding: 10px;
     
 }
-/* ADD HOVER FEATURE AS WELL*/
 
 #Content{
     
@@ -86,3 +86,4 @@ p:hover {
 .column:hover{
     background-color: rgba( 50, 100, 83, 0.4 );
 }
+*/
