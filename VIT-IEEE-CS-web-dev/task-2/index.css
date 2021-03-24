@@ -34,6 +34,10 @@ ion-icon {
     
 }
 
+a:link, a:visited {
+    text-decoration: none;
+}
+
 .cards {
     background-color: #ff6e40;
 
