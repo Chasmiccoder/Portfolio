@@ -1,0 +1,23 @@
+body {
+    background-image: url(../images/background_1_paper_texture.png);
+}
+
+#BlackKite {
+    width: 20rem;
+    height: auto;
+}
+
+#GradPhoto {
+    width: 20rem;
+    height: auto;
+}
+
+#SunsetPhoto {
+    width: 20rem;
+    height: auto;
+}
+
+#GaneshaPhoto {
+    width: 20rem;
+    height: auto;
+}
