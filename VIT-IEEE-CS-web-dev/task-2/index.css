@@ -3,6 +3,20 @@ body {
     background-color: #1e3d59;
 }
 
+#home_icon {
+    position: relative;
+    
+}
+
+ion-icon {
+    color: #f5f0e1;
+    font-size: 32px;
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+
+}
+
 #ieee_logo {
     margin: 1.5rem;
 }
