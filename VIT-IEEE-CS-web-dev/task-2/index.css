@@ -1,3 +1,64 @@
+/* Navy #1e3d59, Red Orange #ff6e40, Mango #ffc13b, Almond #f5f0e1 */
 body {
-    margin:0;
+    background-color: #1e3d59;
+}
+
+#ieee_logo {
+    margin: 1.5rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.cards {
+    background-color:  #ff6e40;
+
+    border: 5px #ffc13b;
+    border-style: outset;
+    border-radius: 10px;
+
+    width: 18rem;
+    height: 22rem;
+    
+    transition: 0.2s all ease-in-out;
+}
+
+.cards:hover {
+    transform: scale( 1.1 );
+    border-style: double;
+}
+
+.illustration {
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 50%;
+    background-color: #ffc13b;
+   
+    width: 12rem;
+    height: 12rem;
+
+    transition: 0.2s all ease-in-out;
+}
+
+.illustration:hover {
+    transform: scale( 1.1 );
+}
+
+.paragraph_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f0e1;
+
 }
