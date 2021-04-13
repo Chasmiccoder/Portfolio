@@ -1,0 +1,43 @@
+/* Background colour Blue - RGB (in decimal): 43, 46, 74 */
+/* Text Colour Red - RGB (in decimal): 219, 67, 69 */
+
+body {
+    background-color: #2B2E4A;
+    background-image: url( ../images/background_2.png );
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+    padding-top: 0;
+    
+}
+
+#main_heading {
+    color: #DB4345;
+    font-size: 2.5em;
+}
+
+#description {
+    color: beige;
+    font-size: 1.5em;
+
+    padding: 0.5rem;
+
+    border: 2px;
+    border-style: inset;
+    border-color: #434674;
+}
+
+#text_input {
+
+}
+
+#text_input_title {
+
+}
+
+
