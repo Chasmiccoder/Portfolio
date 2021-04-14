@@ -6,6 +6,18 @@ body {
     background-image: url( ../images/background_2.png );
 }
 
+#home_icon {
+    position: relative;
+}
+
+ion-icon {
+    color: beige;
+    font-size: 32px;
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+}
+
 #heading {
     display: flex;
     justify-content: center;
@@ -142,4 +154,3 @@ body {
     background-color: beige;
     color: #DB4345;
 }
-
