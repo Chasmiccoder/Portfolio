@@ -62,7 +62,5 @@ function display_analysis( analytics, str ) {
     document.getElementById( "special_characters" ).innerHTML = "Special Characters: " + analytics[4].toString();
     
     // Clearing the input field, once an input is given
-    document.getElementById( "input_string_id" ).value = '';
-    
-    
+    document.getElementById( "input_string_id" ).value = '';   
 }
