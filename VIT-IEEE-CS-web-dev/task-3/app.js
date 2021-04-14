@@ -7,7 +7,7 @@ function get_string() {
     }
 
     string_analyse( str );
-    return false; //dunn0 bout
+    return false;
 }
 
 function string_analyse( str ) {
