@@ -11,33 +11,136 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
     padding: 4rem;
     padding-top: 0;
-    
+    padding-bottom: 0;   
 }
 
 #main_heading {
     color: #DB4345;
     font-size: 2.5em;
+    margin-bottom: 0;
 }
 
 #description {
     color: beige;
     font-size: 1.5em;
 
-    padding: 0.5rem;
+    padding: 0.75rem;
 
     border: 2px;
-    border-style: inset;
+    border-style:groove;
     border-color: #434674;
 }
 
 #text_input {
+    display: flex;
+    flex-direction: column;
 
+    margin: 6rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #text_input_title {
+    font-size: 1.75rem;
+    color: beige;
 
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
 }
 
+#input_string_id {
+    width: 75%;
+    height: 2.5rem;
+
+    border: 2px;
+    border-style: solid;
+    border-color: #434674;
+    border-radius: 2rem;
+
+    text-align: center;
+    outline: none;
+    background-color: beige;
+}
+
+#button1 {
+    height: 2.5rem;
+    width: 10rem;
+    outline: none;
+
+    background-color: #DB4345;
+    color: beige;
+    font-weight: bold;
+
+    border: 2px;
+    border-style: solid;
+    border-color: #434674;
+    border-radius: 2rem;    
+}
+
+#text_output {
+    display: flex;
+    flex-direction: column;
+
+    margin: 6rem;
+    margin-top: 1.5rem;
+}
+
+#text_output_title {
+    font-size: 1.75rem;
+    color: beige;
+
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+#output_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-justify: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 11rem;
+    height: 2rem;
+    padding: 0.5rem;
+    padding-bottom: 0.1rem;
+    
+
+    border: 2px;
+    border-style: double;
+    border-radius: 5rem;
+
+    text-align: center;
+    font-weight: bold;    
+}
+
+#vowels {
+    background-color: beige;
+    color: #DB4345;   
+}
+
+#consonants {
+    background-color: #DB4345;
+    color: beige;
+}
+
+#digits {
+    background-color: beige;
+    color: #DB4345;
+}
+
+#spaces {
+    background-color: #DB4345;
+    color: beige;
+}
+
+#special_characters {
+    background-color: beige;
+    color: #DB4345;
+}
 

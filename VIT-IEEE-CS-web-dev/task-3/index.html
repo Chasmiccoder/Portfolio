@@ -11,8 +11,6 @@
 </head>
 <body>
 
-    <br><br>
-
     <div id="heading">
         <p id="main_heading">String Analyser</p>
         <br>
@@ -22,16 +20,45 @@
     </div>
 
     <div id="text_input">
-            <p id="text_input_title">
-                Enter your text here:
-            </p>
+        <p id="text_input_title">
+            Enter your text here:
+        </p>
+    
+        <form name="string_form">
 
-            <form name="string_form">
-
-                <input type="text" id="input_string_id" name="input_box" placeholder="enter string" >
-                <button id="button1" onclick="get_string()">Analyse!</button>
+            <input type="text" id="input_string_id" name="input_box" placeholder="enter string" > <br> <br>
+            <button id="button1" onclick="return get_string()">Analyse!</button> 
+            <!-- return get_string() prevents page reload, when get_string returns false-->
                 
-            </form>
+        </form>
+    </div>
+
+    <div id="text_output">
+        <p id="text_output_title">Given Input:</p>
+
+        <div id="output_cards">
+            <div >
+                <p id="vowels" class ="cards">Vowels:</p>
+            </div>
+
+            <div >
+                <p id="consonants" class ="cards">Consonants:</p>
+            </div>
+
+            <div >
+                <p id="digits" class ="cards">Digits:</p>
+            </div>
+
+            <div >
+                <p id="spaces" class ="cards">Spaces:</p>
+            </div>
+
+            <div >
+                <p id="special_characters" class ="cards">Special Characters:</p>
+            </div>
+
+        </div>
+
     </div>
 
 
@@ -43,7 +70,7 @@
 
 
 
-    <script src="index.js"></script>
+    <script src="app.js"></script>
     <!-- Because of the way browsers download components, it is best to include the JS file right before the body -->
     
 </body>
