@@ -1,0 +1,44 @@
+body {
+    background-image: url(../images/design_bg.jpeg);
+}
+
+.custom-navbar {
+    background-color: azure;
+}
+
+.heading {
+    text-align: center;
+    text-justify: distribute-all-lines;
+}
+
+#main-heading {
+    font-weight: bold;
+    color: azure;
+    font-size: 2rem;
+}
+
+#sub-heading {
+    color: azure;
+    font-style: italic;
+}
+
+.custom-col {
+    height: 22rem;
+}
+
+.ionIcon {
+    font-size: 2rem;
+}
+
+#description-heading {
+    color: azure;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+#description-content {
+    color: azure;
+    border: 1px solid azure;
+    padding: 2rem;
+}
